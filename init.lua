@@ -10,8 +10,8 @@
 
 local M = {}
 
-vim.keymap.set('n', 'H', ':bn\n')
-vim.keymap.set('n', 'L', ':bp\n')
+vim.keymap.set('n', 'H', ':bp\n')
+vim.keymap.set('n', 'L', ':bn\n')
 
 --- Merge extended options with a default table of options
 ---@param default? table The default table that you want to merge into
